@@ -15,6 +15,7 @@ Imagina que estás desarrollando una aplicación sencilla para registrar informa
 
   * Array:
      ConsumoCarbonHora= [680, 710, 695, 720, 705, 690]
+     Cada posición representa el consumo de carbón en kilogramos por hora duante la operacion de una caldera.
      
      - Indice 0: 680 kg/h
      - Indice 1: 710 kg/h
@@ -22,19 +23,19 @@ Imagina que estás desarrollando una aplicación sencilla para registrar informa
      - Indice 3: 720 kg/h
      - Indice 4: 705 kg/h
      - Indice 5: 690 kg/h
-     Cada posición representa el consumo de carbón en kilogramos por hora duante la operacion de una caldera.
+       
 
   * DatosdeOperacion=
     [680, 9500, 13.97]
     [710, 10200, 14.37]
     [695, 9800, 14.10]
     
-    * Cada fila representa una hora especifica de operacion.
+    Cada fila representa una hora especifica de operacion.
     - Fila 0: Consumo de carbón, vapor producido y relación vapor/carbón de la primera hora.
     - Fila 1: Consumo de carbón, vapor producido y relación vapor/carbón de la segunda hora.
     - Fila 3: Consumo de carbón, vapor producido y relación vapor/carbón de la tercera hora.
 
-    * Columnas:
+    Columnas:
     - Columna 0: Consumo de carbon kg/h
     - Columna 1: Produccion de vapor lb/h
     - Columna 2: Relacion vapor/carbon
